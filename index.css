@@ -12,13 +12,14 @@
   
   .left-side {
     overflow: hidden;
-    .button {
-      min-width: 0;
+  }
+
+  .left-side .button {
+    min-width: 0;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
       margin-right: 8px;
-    }
   }
   
   .right-side {
