@@ -1,0 +1,39 @@
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ecf4f4;
+    padding: 8px;
+  }
+  
+  .left-side,
+  .right-side {
+    display: flex;
+  }
+  
+  .left-side {
+    overflow: hidden;
+    .button {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+  }
+  
+  .right-side {
+    .button {
+      margin-left: 8px;
+    }
+  }
+  
+  .button {
+    background-color: #d0ec7e;
+    border: none;
+    padding: 8px;
+  }
+  
+  .button--cancel {
+    background-color: transparent;
+  }
+  
